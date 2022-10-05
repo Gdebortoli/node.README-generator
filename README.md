@@ -2,12 +2,14 @@
 
 ## Using baseline starter code, indivudually implement the following USER story: 
 
-* AS A developer I WANT a README generator 
-SO THAT I can quickly create a professional README for a new project
+
+* AS A developer I WANT a README generator SO THAT I can quickly create a professional README for a new project
+
 
 ## Acceptance Criteria
 
-### GIVEN a command-line application that accepts user input
+
+GIVEN a command-line application that accepts user input
 
 * WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -26,18 +28,25 @@ THEN I am taken to the corresponding section of the README
 
 ## Assets
 
+
+
+### Built Using:
+
+* JavaScript
+* Node.js
+* Node Package Manager
+* NPM Inquirer
+
 ### Screenshots
 
 <!-- Make sure to resize the pictures so they fit appropriately  -->
 ![](./assets/####)
 
-### Walkthrough Video
+### Walkthrough Video Link
 
 ![](./assets/####)
 
-###
-
-### Github LinK
+### Github Link
 
 <!-- Link -->
 
