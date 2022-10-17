@@ -10,7 +10,15 @@ const questions = [
         {
             type: 'input',
             name: 'title',
-            message: 'What is the title of your project?'
+            message: 'What is the title of your project?',
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your project name!');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
@@ -62,12 +70,30 @@ function writeToFile(fileName, data) {
         if (err) throw err;
         console.log('The file has been Created!');
     });
- }
-
+}
 // TODO: Create a function to initialize app
 function init() { 
-    return inquirer.prompt(questions)
+    const promptUser = () => {
+        return inquirer.prompt(questions)
+        .then(answers => {
+            return answers;
+        });
+    };
+    promptUser()
+    .then(answers => {
+        return generateMarkdown(answers)
+    })
+    .then(response => {
+        fs.writeFile("./dist/README.md", respons, e)
+    })
 }
 
 // Function call to initialize app
+console.log(`
+=======================================================================
+Please answer the following questions to create a new README.md file. 
+Not all of the questions are required but a professional README.md is descriptive, concise, 
+and Organized. Good Luck :)
+=======================================================================
+`)
 init();
