@@ -7,7 +7,15 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // Questions
-inquirer.prompt([
+const promptUser = () => {
+    console.log(`
+=======================================================================
+Please answer the following questions to create a new README.md file. 
+Not all of the questions are required but a professional README.md is 
+descriptive, concise, and Organized. Good Luck!
+=======================================================================
+`);
+return inquirer.prompt([
         {
             type: 'input',
             name: 'title',
@@ -29,7 +37,7 @@ inquirer.prompt([
         {
             type: 'input',
             name: 'installation',
-            message: 'Please provide instructions on how to run and install your project.'
+            message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'
         }, 
         {
             type: 'input',
@@ -39,12 +47,12 @@ inquirer.prompt([
         {
             type: 'input',
             name: 'tests',
-            message:''
+            message:'Did you run any tests on your project? If so, please explain the steps required to run them and any examples if available.'
         }, 
         {
             type: 'input',
             name: 'Credits',
-            message:''
+            message:'Please list the names of contributors who collaborated with you on this project '
         }, 
         {
             type: 'list',
@@ -70,27 +78,17 @@ inquirer.prompt([
             name: 'questions',
             message:'Please enter your email address'
         }
-    ]).then(answers => {
-        console.log(answers);
+    ])
 // TODO: Create a function to write README file
+    .then(answers => {
+        console.log(answers);
         fs.writeFileSync("./dist/README.md", generateMarkdown(answers))
         }
-    );
+    )};
+// TODO: Create a function to initialize app// Function call to initialize app
+        promptUser();
+        
 
-// TODO: Create a function to initialize app
-    function init() { 
-    inquirer.prompt(answers)
-    .then(function (response) {
-        writeToFile(response);
-        })
-    };
-// Function call to initialize app
-// console.log(`
-// =======================================================================
-// Please answer the following questions to create a new README.md file. 
-// Not all of the questions are required but a professional README.md is 
-// descriptive, concise, and Organized. Good Luck!
-// =======================================================================
-// `)
-    // init();
+
+  
 
