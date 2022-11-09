@@ -8,7 +8,7 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Acceptance Criteria
 
-### GIVEN a command-line application that accepts user input
+GIVEN a command-line application that accepts user input
 
 * WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -30,6 +30,7 @@ THEN I am taken to the corresponding section of the README
 * node.js
 * inquirer.js
 * screencastify 
+* [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 ### Walkthrough Video
 
@@ -37,8 +38,5 @@ THEN I am taken to the corresponding section of the README
 
 ### Github LinK
 
-<!-- Link -->
+Click here for the link to my [Github Respository](https://github.com/Gdebortoli/node.README-generator.git)
 
-This site was build using [Github Pages]()
-
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
