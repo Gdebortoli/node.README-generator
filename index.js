@@ -41,8 +41,8 @@ return inquirer.prompt([
         }, 
         {
             type: 'input',
-            name: 'contributing',
-            message:''
+            name: 'How to contribute to the project',
+            message:'How can users contribute to the project?'
         }, 
         {
             type: 'input',
@@ -52,12 +52,12 @@ return inquirer.prompt([
         {
             type: 'input',
             name: 'Credits',
-            message:'Please list the names of contributors who collaborated with you on this project '
+            message:'Please list the names of contributors who collaborated with you on this project.'
         }, 
         {
             type: 'list',
             name: 'license',
-            message:'What license type did you use for this project? select one option',
+            message:'What license type did you use for this project? select an option',
             choices: ['Apache', 'BSD', 'MIT', 'Mozilla', 'ISC', 'Other']
         }, 
         {
