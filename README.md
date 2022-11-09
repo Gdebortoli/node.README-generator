@@ -27,16 +27,13 @@ THEN I am taken to the corresponding section of the README
 
 ## Assets
 
-### Screenshots
-
-<!-- Make sure to resize the pictures so they fit appropriately  -->
-![](./assets/####)
+* node.js
+* inquirer.js
+* screencastify 
 
 ### Walkthrough Video
 
 ![](./assets/####)
-
-###
 
 ### Github LinK
 
