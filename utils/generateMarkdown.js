@@ -1,10 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === "none") {
+  if (license === "None") {
                 return "";
   } else {
-    return `![Github License](https://img.shields.io/badge/License-${license}-blueviolet.svg)[License Link](${renderLicenseLink(license)})`;
+    return ` [License Link](${renderLicenseLink(license)})`;
   }
 } 
 
@@ -17,11 +17,13 @@ function renderLicenseLink(license) {
     return "https://opensource.org/licenses/BSD-3-Clause";
     } else if (license === "MIT") {
       return "https://opensource.org/licenses/MIT";
+    }  else if (license === "Mozilla") {
+        return "https://opensource.org/licenses/MPL-2.0";
       } else if (license === "ISC") {
         return "https://opensource.org/licenses/ISC";
         } else if (license === "Other") {
           return "https://opensource.org/licenses/alphabetical";
-           } else if (license === "none") {
+           } else if (license === "None") {
             return "";
   } 
 }
@@ -41,7 +43,7 @@ function renderLicenseSection(license) {
               return `This project used the ISC license ${renderLicenseBadge(license)}`;
               } else if (license === "Other") {
                 return `This project used a different license`;
-      } else if (license === "none") {
+      } else if (license === "None") {
         return "";
   }
 }
@@ -50,6 +52,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
 # ${data.title}
+
+![Github License](https://img.shields.io/badge/License-${data.license}-blueviolet.svg)
 
 ## Description
   
@@ -92,6 +96,8 @@ ${renderLicenseSection(data.license)}
 ## Questions 
 
 ${data.questions}
+
+${data.github}
 
 `
 };

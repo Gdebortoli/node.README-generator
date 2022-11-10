@@ -65,11 +65,16 @@ return inquirer.prompt([
             type: 'list',
             name: 'license',
             message:'What license type did you use for this project? select an option',
-            choices: ['Apache', 'BSD', 'MIT', 'Mozilla', 'ISC', 'Other', 'none']
+            choices: ['Apache', 'BSD', 'MIT', 'Mozilla', 'ISC', 'Other', 'None']
         }, 
         {
             type: 'input',
             name: 'questions',
+            message:'Please enter your email address'
+        },
+        {
+            type: 'input',
+            name: 'github',
             message:'Please enter your GitHub username.*REQUIRED*', 
             validate: titleInput => {
                 if (titleInput) {
@@ -80,11 +85,6 @@ return inquirer.prompt([
                 }
             }
         }, 
-        {
-            type: 'input',
-            name: 'questions',
-            message:'Please enter your email address'
-        }
     ])
 // TODO: Create a function to write README file
     .then(answers => {
