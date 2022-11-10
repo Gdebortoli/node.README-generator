@@ -5,6 +5,8 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 // Importing exports from the generateMarkdown file
 const generateMarkdown = require('./utils/generateMarkdown');
+// const renderLicenseBadge = require('./utils/generateMarkdown');
+// const renderLicenseSection = require('./utils/generateMarkdown');
 
 // Questions
 const promptUser = () => {
@@ -41,7 +43,12 @@ return inquirer.prompt([
         }, 
         {
             type: 'input',
-            name: 'How to contribute to the project',
+            name: 'usage',
+            message:'How does the project work?'
+        }, 
+        {
+            type: 'input',
+            name: 'contributing',
             message:'How can users contribute to the project?'
         }, 
         {
@@ -51,14 +58,14 @@ return inquirer.prompt([
         }, 
         {
             type: 'input',
-            name: 'Credits',
+            name: 'credits',
             message:'Please list the names of contributors who collaborated with you on this project.'
         }, 
         {
             type: 'list',
             name: 'license',
             message:'What license type did you use for this project? select an option',
-            choices: ['Apache', 'BSD', 'MIT', 'Mozilla', 'ISC', 'Other']
+            choices: ['Apache', 'BSD', 'MIT', 'Mozilla', 'ISC', 'Other', 'none']
         }, 
         {
             type: 'input',
