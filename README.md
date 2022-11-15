@@ -50,7 +50,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video
 
-![](./assets/####)
+* [Demo Video](https://drive.google.com/file/d/1k5ZRpL3FBRVtbc_3k-sQSkkO9edPr83U/view)
 
 ## Github LinK
 

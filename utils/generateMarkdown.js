@@ -95,9 +95,9 @@ ${renderLicenseSection(data.license)}
 
 ## Questions 
 
-${data.questions}
+* Email: ${data.questions}
 
-${data.github}
+GitHub Username: ${data.github}
 
 `
 };
