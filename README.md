@@ -58,5 +58,5 @@ THEN I am taken to the corresponding section of the README
 
 ## Github LinK
 
-Click here for the link to my [Github Respository](https://github.com/Gdebortoli/node.README-generator.git)
+Click here for the link to my [Github Respository](https://github.com/Gdebortoli/node.README-generator.git) 
 
