@@ -11,7 +11,7 @@ This project is to create a random combination of race and class for a DND campa
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#how-to-contribute)
 - [Tests](#tests)
 - [Credits](#credits)
 - [License](#license)
@@ -45,5 +45,5 @@ This project used the MIT License  [License Link](https://opensource.org/license
 
 * Email: dndcreator.com
 
-GitHub Username: DNDcreator-izcool
+* GitHub Username: DNDcreator-izcool
 

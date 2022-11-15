@@ -63,7 +63,7 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#how-to-contribute)
 - [Tests](#tests)
 - [Credits](#credits)
 - [License](#license)
@@ -97,7 +97,7 @@ ${renderLicenseSection(data.license)}
 
 * Email: ${data.questions}
 
-GitHub Username: ${data.github}
+* GitHub Username: ${data.github}
 
 `
 };
