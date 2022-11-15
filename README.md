@@ -57,7 +57,7 @@ THEN I am taken to the corresponding section of the README
 
 ![Generated README.md](./assets/Screen%20Shot%202022-11-14%20at%206.01.54%20PM.png)
 
-## Github LinK
+## Github Link
 
 Click here for the link to my [Github Respository](https://github.com/Gdebortoli/node.README-generator.git) 
 
