@@ -1,10 +1,20 @@
 
-# Professional README Generator Starter Code
+# Professional README Generator 
 
-## Using baseline starter code, indivudually implement the following USER story: 
+## Description
+  
+Using baseline starter code create a readme generator using
 
 * AS A developer I WANT a README generator 
 SO THAT I can quickly create a professional README for a new project
+
+## Table of Contents
+
+- [Acceptance Criteria](#acceptance-criteria)
+- [Assets](#assets)
+- [Installation](#installation)
+- [Walkthrough Video](#walkthrough)
+- [Github Link](#github-link)
 
 ## Acceptance Criteria
 
@@ -32,11 +42,22 @@ THEN I am taken to the corresponding section of the README
 * screencastify 
 * [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-### Walkthrough Video
+## Installation
 
-![](./assets/####)
+* Clone the repository
+* run $ npm install in command line
+* run $ nodemon server to start the server 
 
-### Github LinK
+## Walkthrough Video
 
-Click here for the link to my [Github Respository](https://github.com/Gdebortoli/node.README-generator.git)
+* [Demo Video](https://watch.screencastify.com/v/YEys3y5Z0gomKEtFk9Jf)
+* [New Readme Walkthrough](https://watch.screencastify.com/v/h7VfsFHoXxpAtNT1zDCM)
+
+## Screenshot
+
+![Generated README.md](./assets/Screen%20Shot%202022-11-14%20at%206.01.54%20PM.png)
+
+## Github Link
+
+Click here for the link to my [Github Respository](https://github.com/Gdebortoli/node.README-generator.git) 
 
