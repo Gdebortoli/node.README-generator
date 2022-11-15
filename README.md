@@ -51,6 +51,7 @@ THEN I am taken to the corresponding section of the README
 ## Walkthrough Video
 
 * [Demo Video](https://watch.screencastify.com/v/YEys3y5Z0gomKEtFk9Jf)
+* [New Readme Walkthrough](https://watch.screencastify.com/v/h7VfsFHoXxpAtNT1zDCM)
 
 ## Screenshot
 
