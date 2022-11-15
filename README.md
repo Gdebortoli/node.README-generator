@@ -50,7 +50,11 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video
 
-* [Demo Video](https://drive.google.com/file/d/1k5ZRpL3FBRVtbc_3k-sQSkkO9edPr83U/view)
+* [Demo Video](https://watch.screencastify.com/v/YEys3y5Z0gomKEtFk9Jf)
+
+## Screenshot
+
+![Generated README.md](./assets/Screen%20Shot%202022-11-14%20at%206.01.54%20PM.png)
 
 ## Github LinK
 
